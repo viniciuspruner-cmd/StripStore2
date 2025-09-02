@@ -1,0 +1,11 @@
+@import url();
+
+:root{
+    --mimi-rosa: #ffd6ffff;
+    --lilás-claro: #e7c6ffff;
+    --lilás: #c8b6ffff;
+    --azul-ciano: #b8c0ffff;
+    --azul: #bbd0ffff;
+}
+
+body{background-color: var(--mimi-rosa)};
