@@ -62,9 +62,20 @@ header{
     object-fit: cover;
  }
 
- .apresentaçãp{
+ .apresentacao{
     font-family: var(--titulo);
     text-align: center;
     margin: 40px 0;
  }
+
+.apresentacao h2{
+    color: var(--azul-prateado);
+    font-size: 50px;
+}
+
+.apresentacao p{
+    color: var(--azul-pratreado);
+    font-size: 25px;
+    font-family: var(--texto);
+}
 
