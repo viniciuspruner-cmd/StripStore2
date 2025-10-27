@@ -1,6 +1,6 @@
 @import url();
 
-:root{ 
+:root{
     --azul-uraniano: #add7f6ff;
     --azul-jordan: #87bfffff;
     --azul-marinho: #3f8efcff;
@@ -120,7 +120,7 @@ footer{
     font-size: 18px;
 }
 
-/*produtos*/
+/* Produtos */
 
 .produtos{
     padding: 40px 0;
@@ -130,18 +130,18 @@ footer{
 .produtos h2{
     font-family: var(--titulo);
     font-family: 40px;
-    color: var(--aquamarine);
+    color: var (--aquamarine);
     margin: 40px 0;
-
 }
- .lista-produtos{
+
+.lista-produtos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
- }
+}
 
- .produtos img{
+.produto img{
     width: 100%;
     border-radius: 10px;
- }
+}
