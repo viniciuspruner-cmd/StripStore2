@@ -1,21 +1,21 @@
 @import url();
 
-:root{
-    --negro-rico: #0d1b2aff;
-    --azul-xford: #1b263bff;
-    --azul: #415a77ff;
-    --azul-prateado: #778da9ff;
-    --platina: #e0e1ddff;
+:root{ 
+    --azul-uraniano: #add7f6ff;
+    --azul-jordan: #87bfffff;
+    --azul-marinho: #3f8efcff;
+    --azul-neon: #2667ffff;
+    --azul-escuro: #3b28ccff;
 }
 
 body{
-    background-color: var(--platina);
+    background-color: var(--azul-uraniano);
     font-family: var(--texto);
     margin: 0;
 }
 
 header{
-    background-color: var(--azul);
+    background-color: var(--azul-jordan);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -38,11 +38,11 @@ header{
 
 .menu a{
     text-decoration: none;
-    color: var(--azul-prateado);
+    color: var(--azul-marinho);
 }
 
 .menu a:hover{
-    color: var(--platina);
+    color: var(--azul-uraniano);
     transition: 0.5s;
 }
 
@@ -69,12 +69,12 @@ header{
  }
 
 .apresentacao h2{
-    color: var(--azul-prateado);
+    color: var(--azul-neon);
     font-size: 50px;
 }
 
 .apresentacao p{
-    color: var(--azul-pratreado);
+    color: var(--azul-neon);
     font-size: 25px;
     font-family: var(--texto);
 }
@@ -101,26 +101,26 @@ header{
 .sobre h2{
     font-family: var(titulo);
     font-size: 40px;
-    color: var(--azul-xford);
+    color: var(--azul-escuro);
     margin-bottom: 15px;
 }
 
 .sobre p{
     font-size: 24px;
-    color: var(--azul-prateado);
+    color: var(--azul-marinho);
 }
 
 footer{
-    background-color: var(--azul-prateado);
+    background-color: var(--azul-neon);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--azul-xford);
+    color: var(--azul-marinho);
     font-size: 18px;
 }
 
-/* Produtos */
+/*produtos*/
 
 .produtos{
     padding: 40px 0;
@@ -130,18 +130,18 @@ footer{
 .produtos h2{
     font-family: var(--titulo);
     font-family: 40px;
-    color: var (--aquamarine);
+    color: var(--aquamarine);
     margin: 40px 0;
-}
 
-.lista-produtos{
+}
+ .lista-produtos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-}
+ }
 
-.produto img{
+ .produtos img{
     width: 100%;
     border-radius: 10px;
-}
+ }
