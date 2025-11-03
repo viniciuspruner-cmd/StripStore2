@@ -141,7 +141,43 @@ footer{
     gap: 20px;
 }
 
+.produto{
+    background-color: var(--azul-jordan);
+    width: 27%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .produto img{
     width: 100%;
     border-radius: 10px;
+}
+
+.produto h3{
+    font-family: var(--azul-escuro);
+    color: var(--azul-uraniano);
+    font-size: 24px;
+}
+
+.produto p{
+    font-size: var(--azul-marinho);
+    color: var(--azul-neon);
+    font-size: 18px;
+    font-size: normal;
+}
+
+.produto button{
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: var(--texto);
+    background-color: var(--azul-neon);
+    color: var(--branco);
+    border: none;
+    border-radius: 12px;
+}
+
+.produto button:hover{
+    background-color:#130f21;
+    transition:0.3s;
+    cursor: pointer;
 }
